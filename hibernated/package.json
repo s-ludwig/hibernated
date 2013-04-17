@@ -1,0 +1,15 @@
+{
+	"name": "hibernated",
+	"dependencies": {
+		"ddbc": {"version": "~master", "path": "../ddbc"}
+	},
+	"sourcePaths": ["."],
+	"importPaths": ["."],
+	"buildRequirements": ["relaxProperties", "allowWarnings"],
+
+	"configurations": [
+		{ "name": "mysql", "versions": ["USE_MYSQL"] },
+		{ "name": "pgsql", "versions": ["USE_PGSQL"] },
+		{ "name": "sqlite", "versions": ["USE_SQLITE"] }
+	]
+}

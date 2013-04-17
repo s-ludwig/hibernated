@@ -1,0 +1,9 @@
+{
+	"name": "hibernated-example",
+	"dependencies": {
+		"hibernated": {"version": "~master", "path": "../hibernated"}
+	},
+	"subConfigurations": {
+		"hibernated": "sqlite"
+	}
+}
